@@ -11,8 +11,12 @@ h1 {
   font-size: 70px;
 }
 
-h1, nav, .new-york, .footer {
+h1, nav, span, a, .new-york, .footer {
   color: white;
+}
+
+.new-york, #nav1 {
+  background-image: url("./resources/building.png");
 }
 
 h1 {
@@ -32,10 +36,14 @@ p {
 }
 
 .footer {
-  font-size: 11px;
   text-align: left;
+  background-color: dimgray;
 }
 
-#nav {
+span {
+  font-size: 11px;
+}
+
+#nav, #nav2 {
   font-size: 18px;
 }
