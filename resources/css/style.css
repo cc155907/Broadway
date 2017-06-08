@@ -16,7 +16,7 @@ h1, nav, span, a, .new-york, .footer {
 }
 
 /*Had trouble using the relative path before realizing that I need to make a path from the CSS file, not the HTML file.*/
-.new-york, #nav1 {
+.new-york, #navigate {
   background-image: url("./../the-flatiron-building.png");
 }
 
@@ -45,6 +45,6 @@ span {
   font-size: 11px;
 }
 
-#nav, #nav2 {
+#nav1, #nav2 {
   font-size: 18px;
 }
