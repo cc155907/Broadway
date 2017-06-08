@@ -15,9 +15,9 @@ h1, nav, span, a, .new-york, .footer {
   color: white;
 }
 
-/*Here is another case where I should be using "./resources/the-flatiron-building.png" as the URL value.  For some reason it just won't work when I use a relative path.  I've tried renaming the file and moving it altogether, but it just won't load.  I have no idea why...*/
+/*Had trouble using the relative path before realizing that I need to make a path from the CSS file, not the HTML file.*/
 .new-york, #nav1 {
-  background-image: url("https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png");
+  background-image: url("./../the-flatiron-building.png");
 }
 
 h1 {
